@@ -1,0 +1,29 @@
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .flagImg {
+        height: 350px;
+    }
+    .detailContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+    .detailContainer .detailContent {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .detailContainer .subContent {
+        display: flex;
+        padding-left: 0;
+    }
+    .subContent .left {
+        padding-left: 0;
+    }
+    .right {
+        
+    }
+}
